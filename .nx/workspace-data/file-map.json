@@ -1,0 +1,140 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.3.1",
+  "deps": {
+    "nx": "^19.3.1"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "@web-client/user": [
+        {
+          "file": "apps/user/.eslintrc.cjs",
+          "hash": "18224317155734308275"
+        },
+        {
+          "file": "apps/user/.gitignore",
+          "hash": "13046175384202504187"
+        },
+        {
+          "file": "apps/user/README.md",
+          "hash": "11460966644741158790"
+        },
+        {
+          "file": "apps/user/index.html",
+          "hash": "4025202329384162906"
+        },
+        {
+          "file": "apps/user/package.json",
+          "hash": "16395531671422836368",
+          "deps": [
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:@vitejs/plugin-react",
+            "npm:eslint",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react-refresh",
+            "npm:typescript",
+            "npm:vite",
+            "@web-client/shared",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/user/public/vite.svg",
+          "hash": "16046085400642193116"
+        },
+        {
+          "file": "apps/user/src/App.css",
+          "hash": "3739391659270974612"
+        },
+        {
+          "file": "apps/user/src/App.tsx",
+          "hash": "18407201693580503205"
+        },
+        {
+          "file": "apps/user/src/assets/react.svg",
+          "hash": "16069471864800376455"
+        },
+        {
+          "file": "apps/user/src/index.css",
+          "hash": "957896817323665666"
+        },
+        {
+          "file": "apps/user/src/main.tsx",
+          "hash": "12948679595907665671"
+        },
+        {
+          "file": "apps/user/src/vite-env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "apps/user/tsconfig.app.json",
+          "hash": "18016476372945640804"
+        },
+        {
+          "file": "apps/user/tsconfig.json",
+          "hash": "1094823341589039708"
+        },
+        {
+          "file": "apps/user/tsconfig.node.json",
+          "hash": "5733066493089164465"
+        },
+        {
+          "file": "apps/user/vite.config.ts",
+          "hash": "1736901911154229698"
+        }
+      ],
+      "@web-client/shared": [
+        {
+          "file": "packages/shared/package.json",
+          "hash": "15185520727300227916",
+          "deps": [
+            "npm:@types/react",
+            "npm:typescript",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/shared/src/components/Button.tsx",
+          "hash": "8487098792693929395"
+        },
+        {
+          "file": "packages/shared/src/index.ts",
+          "hash": "8952915774803148473"
+        },
+        {
+          "file": "packages/shared/tsconfig.json",
+          "hash": "2883730716153043748"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "13046175384202504187"
+      },
+      {
+        "file": "README.MD",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "package.json",
+        "hash": "1072269227830410208"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "291292363513747881"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "2320187736902498180"
+      }
+    ]
+  }
+}
